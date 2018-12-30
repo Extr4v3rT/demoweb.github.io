@@ -1,0 +1,193 @@
+body {
+  margin:0;
+}
+
+                      /*MENU*/
+.mainmenu {
+  width:100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  user-select: none;
+}
+.menuwrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 1.6em;
+  width: 100%;
+}
+
+/*LOGO*/
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 0.5em;
+  font-weight: bold;
+  font-size: 34px;
+}
+.logo > a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/*Nav.MENULIST*/
+.menulist {
+  text-align: center;
+}
+
+/*ul.items*/
+.items {
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/*li.link*/
+.link {
+  padding: 0.4em 1.2em 0.4em 1.2em;
+  letter-spacing: .7px;
+  float: left;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  list-style: none;
+  cursor: pointer;
+}
+.link > a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+/*Hover Menu*/
+.link:hover {
+  background-color: #1ebedb;
+}
+.link >a:hover {
+  color: white;
+}
+
+/*SOCIAL ICONS*/
+.social-icon {
+  position: absolute;
+  top:0;
+  right: 0;
+  padding-top: 1.2em;
+}
+
+                  /*KONIEC MENU*/
+
+                  /*HOME FIRST PAGE*/
+
+.container {
+  width: 100%;
+  padding-top: 160px;
+  padding-bottom: auto;
+  text-align: center;
+  background-image:url("../img/waves.png");
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+
+                  /*SLOGAN*/
+.slogan {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Playfair Display', serif;
+  user-select: none;
+}
+.slogan >h3 {
+  color: white;
+  text-shadow: 3px 0px 15px #000000;
+  line-height: 2px;
+}
+
+                  /*Social icons*/
+
+.responsive-social {
+  cursor: pointer;
+}
+.socialhref {
+  color: black;
+  text-decoration: none;
+}
+
+                    /*ADVERSTIMENT*/
+.ad {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 8px 0px 30px 0px rgba(0,0,0,0.34);
+  background-image: url('../img/r.png');
+
+}
+              /*TRIANGLE AD BOARD BLUE*/
+
+/*#triangle {
+	width: 0;
+	height: 0;
+	border-top: 500px solid #00d2ff;
+	border-right: 420px solid transparent;}*/
+
+.next {
+  background-color: yellow;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 450px;
+  left: 1300px;
+}
+.whoweare {
+  text-align: center;
+
+
+}
+.overlay {
+  background-image: url('../img/overlaysecondpage.png');
+  width: 100%;
+  height: 500px;
+}
+.aboutus {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    letter-spacing: 23px;
+    color: rgba(0, 0, 0, 0.03);
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+
+
+
+              /*RESPONSIVE FUNCTION*/
+
+@media screen and (max-width: 1030px){
+  .logo {float: none; position: relative; margin-left: auto; margin-right: auto; text-align: center; border-bottom: 3px solid black; padding-bottom: 0.4em  ;}
+  .social-icon {position: relative; margin-left: auto; margin-right: auto; text-align: center;}
+  .responsive-social{margin-left: 12px; margin-right: 12px;}
+  .menuwrapper {padding-top: 0.7em;}
+  @media screen and (max-width: 400px){
+  .ad {width: 400px; height: 900px; background-image: url("../img/r400.png");}
+  }
+
+
+
+  /*.container {background-image: url("../img/waves1030.png");}
+                }
+
+@media screen and (max-width: 700px){
+.container {background-image: url("../img/waves700.png");}
+}*/
